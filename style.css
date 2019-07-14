@@ -1,0 +1,144 @@
+
+
+.clearfix:after {visibility: hidden; display: block; font-size: 0; content: ''; clear: both; height: 0; }
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+body, input {
+  font-family: 'Helvetica', monospace;
+}
+
+#wrapper {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.quiz {
+  width: 50%;
+  display: inline-block;
+}
+
+#startButtonContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.form label {
+  margin: 10px;
+}
+
+#runningScore h1 {
+  color: #ffd480;
+}
+
+#runningScore {
+  text-align: center;
+  margin: 0;
+}
+
+#scoreBoard {
+  margin-top: 80px;
+  color: #ffd480;
+  font-size: 100px;
+
+}
+
+#scoreBoard p {
+  font-size: 60px;
+}
+
+.radioButton {
+  display: flex;
+  align-items: center;
+}
+
+
+.answerOptions {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  font-size: 20px;
+  border: none;
+  background: #ffd480;
+  color: white;
+  padding: 50px 100px;
+  text-align: center;
+  transition: all 0.3s;
+  border-radius: 20px;
+}
+
+button:hover {
+  background: #ffeecc;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.formContent {
+  display: inline-block;
+}
+
+#formOne {
+  color: #ffb31a;
+  font-size: 40px;
+  font-family: 'Helvetica';
+}
+
+.form {
+  margin-top: 80px;
+}
+
+.submitQ {
+  margin-top: 50px;
+  color: white;
+  font-size: 50px;
+  padding: 20px 20px;
+}
+
+#formTwo {
+  color: #ffb31a;
+  font-size: 40px;
+  font-family: 'Helvetica';
+}
+
+
+#formThree {
+  color: #ffb31a;
+  font-size: 40px;
+  font-family: 'Helvetica';
+}
+
+
+
+#formFour {
+  color: #ffb31a;
+  font-size: 40px;
+  font-family: 'Helvetica';
+}
+
+
+
+#formFive {
+  color: #ffb31a;
+  font-size: 40px;
+  font-family: 'Helvetica';
+}
+
+
+@media (max-width: 700px) {
+  .wrapper {
+    width: 100%;
+  }
+}

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Quiz</title>
+</head>
+<body>
+
+    <div id="wrapper">
+
+        <!---START SCREEN-->
+        <div id="startButtonContainer">
+            <button id="startQuiz" type="button">
+                <h1>Start Quiz</h1>
+            </button>
+        </div>
+
+        <!---QUIZ SCREEN-->
+        <div id="quiz">
+
+                <form action="" id="formOne" class="form" style= "display: none">
+            		<div class="formContent">
+            			<p>Q1: What is the average flying speed of a typical honey bee?</p>
+
+                        <div class="answerOptions">
+                            <div class="radioButton">
+                                <input type="radio" id="first" value="25km/hour" name="one">
+                                <label for="First">25km/hour</label>
+                            </div>
+                                
+                            <div class="radioButton">
+                                <input type="radio" id="first" value="60km/hour" name="one">
+                                <label for="Second">60km/hour</label>
+                            </div>
+                            
+                            <div class="radioButton">
+                                <input type="radio" id="first" value="5km/hour" name="one">
+                                <label for="Third">5km/hour</label>
+                            </div>
+                            
+                        </div>
+            			
+                    </div>
+                    <button class="submitQ" type="submit" value="SubmitQ1">Submit</button>
+                </form>
+
+                <form action="" id="formTwo" class="form" style= "display: none">
+                    <div class="formContent"> 
+                        <p>Q2: How much honey can a typical beehive produce in one year?</p>
+                        
+                        <div class="answerOptions">
+                            <div class="radioButton">
+                                <input type="radio" id="first" value="1-2 pounds" name="two">
+                                <label for="First">1-2 pounds</label>
+                            </div>
+                            
+
+                            <div class="radioButton">
+                                <input type="radio" id="second" value="100-200 pounds" name="two">
+                                <label for="Second">100-200 pounds</label>
+                            </div>
+                           
+                            <div class="radioButton">
+                                <input type="radio" id="third" value="30-100 pounds" name="two">
+                                <label for="Third">30-100 pounds</label>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                    <button class="submitQ" type="submit" value="SubmitQ2">Submit</button>
+                </form>
+
+                <form action="" id="formThree" class="form" style= "display: none">
+                    <div class="formContent">
+                            <div class="answerOptions">
+                                <p>Q3: What is the average lifespan of a worker bee?</p>
+
+                                <div class="radioButton">
+                                    <input type="radio" id="first" value="1-2 years" name="three">
+                                    <label for="First">1-2 years</label>
+                                </div>
+                                
+
+                                <div class="radioButton">
+                                    <input type="radio" id="first" value="5-6 weeks" name="three">
+                                    <label for="Second">5-6 weeks</label>
+                                </div>
+
+
+                                <div class="radioButton">
+                                    <input type="radio" id="first" value="4-6 months" name="three">
+                                    <label for="Third">4-6 months</label>
+                                </div>
+                            </div>
+                    </div>
+                    <button class="submitQ" type="submit" value="SubmitQ3">Submit</button>
+                </form>
+                
+                <form action="" id="formFour" class="form" style= "display: none">
+                    <div class="formContent">
+                        <div class="answerOptions">
+
+                            <p>Q4: How much honey does the average bee make in it's lifetime?</p>
+
+                            <div class="radioButton">
+                                <input type="radio" id="first" value="less than one teaspoon" name="four">
+                                <label for="First">less than one teaspoon</label>
+                            </div>
+                            
+                            <div class="radioButton">
+                                <input type="radio" id="first" value="One cup" name="four">
+                                <label for="Second">one cup</label>
+                            </div>
+                            
+                            <div class="radioButton">
+                                <input type="radio" id="first" value="Ten cups" name="four">
+                                <label for="Third">ten cups</label>
+                            </div>
+                            
+                        </div>
+                    </div>
+                        <button class="submitQ" type="submit" value="SubmitQ4">Submit</button>
+                </form>
+
+                <form action="" id="formFive" class="form" style= "display: none">
+                    <div class="formContent">
+                        <div class="answerContent">
+                            
+                            <p>Q5: How long is the lifespan of a queen bee?</p>
+
+                            <div class="radioButton">
+                                <input type="radio" id="first" value="One year" name="five">
+                                <label for="First">one year</label>
+                            </div>
+                            
+                            <div class="radioButton">
+                                <input type="radio" id="first" value="five years" name="five">
+                                <label for="Second">five years</label>
+                            </div>
+                            
+                            <div class="radioButton">
+                                <input type="radio" id="first" value="Ten years" name="five">
+                                <label for="Third">ten years</label>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                    <button class="submitQ" type="submit" value="SubmitQ5">Submit</button>
+                </form>
+
+        <div id="runningScore" style="display: none;">
+            <h1>Score: <span id="counterValue" class="counter">0</span></h1>
+        </div>
+
+
+    <!--Start of SCORE SCREEN-->
+        <div id="scoreBoard" style = "display: none;">
+            </div>
+
+        </div>
+
+     </div> <!--closing the QUIZ SCREEN-->
+       
+<!--end of SCORE SCREN-->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="script.js"></script> 
+    
+
+</body>
+</html>
+
+
+	
